@@ -32,8 +32,8 @@ Name |  Version |
 ## Do following things if it is your initial setup
 
   * `cd ~/Developer/`
-  * `git clone git@github.com:netguru/odin.git`
-  * `cd odin`
+  * `git clone git@github.com:NetguruCodeCollege/netguru_code_college_todo_app.git`
+  * `cd netguru_code_college_todo_app`
   * `bundle install`
   * create database with default seeds `rake db:create db:schema:load && rake db:seed`
 
@@ -41,7 +41,7 @@ Name |  Version |
 
 ## You want to run a project on Your local machine - let's to it!
 
-  * `cd ~/Developer/odin`
+  * `cd ~/Developer/netguru_code_college_todo_app`
   * `rails s`
 
 # Running Tests :diamonds:
@@ -60,11 +60,7 @@ Name |  Version |
 
 ## How to get access production server & database
 
-  * production server
-    * `ssh deploy@odin-thor.production.devguru.co`
-  * database
-    * log via ssh to production server
-    * `docker run -it --rm mysql bin/bash`
+  * lorem ipsum
 
 # Worth to read
 
