@@ -16,6 +16,11 @@ Metrics/AbcSize:
   Max: 25
   Exclude:
     - 'spec/**/*'
+Style/BlockLength:
+  Exclude:
+    - 'Rakefile'
+    - '**/*.rake'
+    - 'spec/**/*.rb'
 
 AllCops:
   TargetRubyVersion: 2.4
