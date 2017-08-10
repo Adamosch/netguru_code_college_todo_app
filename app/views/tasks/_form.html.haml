@@ -4,5 +4,11 @@
   .form-inputs
     = f.input :name
 
+  .form-inputs
+    = f.text_area :description
+
+  .form-inputs
+    = f.input :due_to, as: :datetime, html5: true
+
   .form-actions
     = f.button :submit

@@ -3,6 +3,15 @@
 %p
   %b Name:
   = @task.name
+%p
+  %b Description:
+  = @task.description
+%p
+  %b Due to:
+  = @task.due_to
+%p
+  %b Completed at:
+  = @task.completed_at
 
 = link_to 'Edit', edit_task_path(@task)
 \|
