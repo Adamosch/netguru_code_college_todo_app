@@ -1,7 +1,7 @@
 %h1 Listing tasks
 %h3.red My tasks are:
 
-%table
+%table.table
   %thead
     %tr
       %th Name
@@ -19,4 +19,9 @@
 
 %br
 
-= link_to 'New Task', new_task_path
+= link_to new_task_path do
+  .btn.btn-lg.btn-success
+    New Task
+
+= link_to new_task_path do
+  %img{ src: "http://americanlifestylemag.com/wp-content/uploads/2015/03/FluffyFace-copy.jpg" }
