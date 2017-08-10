@@ -38,6 +38,7 @@ gem "haml-rails"
 gem "simple_form"
 gem 'ffaker'
 gem 'devise'
+gem 'draper'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
