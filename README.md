@@ -74,4 +74,4 @@ Name |  Version |
 
 ## Other valuable info
 
-  * lorem ipsum
+  * lorem ipsum dolor
