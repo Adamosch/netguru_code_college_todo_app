@@ -7,7 +7,7 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-if User.count >= 1000
+if User.count < 1000
   puts "Creating users..."
   1000.times do
     User.create(
