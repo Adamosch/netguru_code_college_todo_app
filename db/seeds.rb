@@ -9,7 +9,7 @@
 
 if User.count < 1000
   puts "Creating users..."
-  1000.times do
+  100.times do
     User.create(
       name: FFaker::Name.name,
       email: FFaker::Internet.email
@@ -22,7 +22,7 @@ end
 
 puts "Creating tasks..."
 users = User.all
-1000.times do
+100.times do
   name_length = rand(5) + 1
   due_to = rand(1).zero? ? nil : rand(80).days.from_now
   Task.create(
