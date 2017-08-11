@@ -3,7 +3,7 @@
 [![CircleCI](https://circleci.com/gh/NetguruCodeCollege/netguru_code_college_todo_app.svg?style=svg)](https://circleci.com/gh/NetguruCodeCollege/netguru_code_college_todo_app)
 [![codebeat badge](https://codebeat.co/badges/1c0cc39e-d3f2-4918-b4d1-4b2bf945a107)](https://codebeat.co/projects/github-com-netgurucodecollege-netguru_code_college_todo_app-master)
 
-# Technology stack :gem:
+# Technology stack Hi! :gem:
 
 Name |  Version |
 | :--: | :---: |
